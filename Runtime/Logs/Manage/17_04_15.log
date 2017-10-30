@@ -1,0 +1,629 @@
+[ 2017-04-15T08:16:05+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-15T08:16:21+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=8wle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-15T08:19:19+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-15T08:22:07+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:04:56+08:00 ] ::1 /htdocs/index.php/Manage/News/index.html
+ERR: 无法加载控制器:News
+
+[ 2017-04-15T09:04:58+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:00+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:00+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:01+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:18+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:19+08:00 ] ::1 /htdocs/index.php/Manage/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-15T09:05:24+08:00 ] ::1 /htdocs/index.php/Manage/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-04-15T09:19:08+08:00 ] ::1 /htdocs/index.php/Manage/Member/addMem.html
+ERR: 模板不存在:./App/Manage/View/Member/addMem.html
+
+[ 2017-04-15T10:19:25+08:00 ] ::1 /htdocs/index.php/Manage/Member/runAddPic.html
+ERR: 非法操作:runAddPic
+
+[ 2017-04-15T13:23:59+08:00 ] ::1 /htdocs/index.php/Manage/Member/delMem/id/5.html
+ERR: 非法操作:delMem
+
+[ 2017-04-15T13:28:18+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:39:00+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:39:04+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=%E4%B8%AA%E5%9C%B0%E6%96%B9%E9%83%AD%E5%BE%B7%E7%BA%B2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:57:36+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:57:38+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:57:39+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T13:57:40+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:10:36+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:12:12+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:14:50+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:14:58+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:15:19+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:15:26+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:15:27+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:15:40+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:15:51+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:18:23+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:01+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:03+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:04+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:05+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:06+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:19:08+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-15T14:20:20+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:20:27+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:20:36+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:20:37+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:20:38+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:20:39+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:21:31+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:21:41+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0070s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:21:46+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '666' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:21:51+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=sdfg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'sdfg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:23:44+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=asfgfdg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'asfgfdg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:23:57+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:24:04+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0040s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:24:08+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=addgdfg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'addgdfg' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:40:25+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=rjpj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-15T14:40:53+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0230s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:40:57+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=sdfgsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0140s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'sdfgsg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:27+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=sdfgsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0220s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'sdfgsg' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:30+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=sdfgsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0210s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'sdfgsg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:33+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=sdfgsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0230s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'sdfgsg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:42+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0150s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:43+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0230s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:44+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0230s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:45+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0170s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:46+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0290s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:47+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0240s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:49+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0240s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:50+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0190s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:51+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0240s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:52+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0230s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T14:42:53+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T14:42:54+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0200s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:21:07+08:00 ] ::1 /htdocs/index.php/Manage/Admin/checkAccount.html?account=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0210s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:29:39+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-15T15:47:56+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0220s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:47:59+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sds
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sds' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:48:01+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sds
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0200s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sds' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:48:10+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=dfd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0190s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'dfd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:48:13+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=434
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0140s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '434' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:56:01+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=drrfd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'drrfd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:56:03+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=dsd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'dsd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:56:04+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=dsd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0150s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'dsd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:56:25+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0110s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:56:46+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0170s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:56:50+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0190s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:56:52+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0240s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:57:53+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sss' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:03+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sdsfsf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0240s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sdsfsf' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:13+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:14+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:15+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0190s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:16+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=5464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0130s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '5464' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:58:17+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=sss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'sss' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T15:58:21+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=aaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0120s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'aaaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:22+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=aaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0240s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'aaaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T15:58:32+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=aaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'aaaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T16:05:56+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=asdf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0230s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'asdf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T16:06:59+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=zxcv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'zxcv' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T16:16:05+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=fdsfd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'fdsfd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-15T16:17:41+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=qqq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0090s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = 'qqq' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-15T16:21:45+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=1111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '1111111' LIMIT 1   [ RunTime:0.0000s ]
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>睿诚财务管理咨询（吉林）有限公司</title>
+		<meta http-equiv="X-UA-Compatible" content="edge" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/css.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/xinwen.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/d.css"/>
+	<body class="zhuti">
+
+		<div class="gotop">
+			<div class="qq">
+				<a href="#"><img src="__PUBLIC__/Home/img/ma1.png"/></a>
+			</div>
+			<div class="qq">
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=1751669842&site=qq&menu=yes"><img src="__PUBLIC__/Home/img/qq.png" /></a>
+			</div>
+			<div class="go">
+				<a href="#"><img src="__PUBLIC__/Home/img/fanhui.png"/></a>
+			</div>
+		</div>
+
+		<!--banner start-->
+		<!-- 轮播广告 -->
+		<div id="headerHack"></div>
+		<div id="banner_tabs" class="flexslider">
+			<ul class="slides">
+				<li>
+					<a title="" target="_blank" href="#">
+						<img width="1920" height="482" alt="" style="background: url(__PUBLIC__/Home/img/banner1.png) no-repeat center;" src="__PUBLIC__/Home/img/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img width="1920" height="482" alt="" style="background: url(__PUBLIC__/Home/img/banner2.png) no-repeat center;" src="__PUBLIC__/Home/img/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img width="1920" height="482" alt="" style="background: url(__PUBLIC__/Home/img/banner3.png) no-repeat center;" src="__PUBLIC__/Home/img/alpha.png">
+					</a>
+				</li>
+			</ul>
+			<ul class="flex-direction-nav">
+				<li>
+					<a class="flex-prev" href="javascript:;">Previous</a>
+				</li>
+				<li>
+					<a class="flex-next" href="javascript:;">Next</a>
+				</li>
+			</ul>
+			<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+				<li>
+					<a>1</a>
+				</li>
+				<li>
+					<a>2</a>
+				</li>
+				<li>
+					<a>2</a>
+				</li>
+			</ol>
+		</div>
+		<!--banner end-->
+		<!--header start-->
+		<div class="header">
+			<div class="header_main clearfix">
+				<div class="logofl">
+					<a href="#"><img src="__PUBLIC__/Home/img/logo.png" alt="加载失败" /></a>
+				</div>
+				<div class="you_tel">
+					<p>电话：13689825302 / 0431-81115490</p>
+					<!--<p>QQ:666999666</p>-->
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="{:U('Index/index')}" class="lanse">首页</a>
+					</li>
+					<li>
+						<a href="{:U('News/news')}" id="ulChoose">财税中心</a>
+						<ul id="ulDou">
+							<li>
+								<a class="liChoose" href="{:U('News/more',array('pid'=>1))}">小企业优惠政策</a>
+							</li>
+							<li>
+								<a class="liChoose" href="{:U('News/more',array('pid'=>2))}">新税法动态</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="{:U('Zhaopin/zhuce')}">工商注册</a>
+					</li>
+					<li>
+						<a href="{:U('Zhaopin/daili')}">财务代理</a>
+					</li>
+					<li>
+						<a href="{:U('Chanpin/chanpin')}">产品展示</a>
+					</li>
+					<li>
+						<a href="{:U('Zhaopin/peixun')}">财税培训</a>
+					</li>
+					<li>
+						<a href="{:U('Zhaopin/zhaopin')}">人才招聘</a>
+					</li>
+					<li>
+						<a href="{:U('Lianxi/lianxi')}">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--header end-->
+		<script src="__PUBLIC__/Home/js/jquery-1.10.2.min.js"></script>
+		<script src="__PUBLIC__/Home/js/slider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var bannerSlider = new Slider($('#banner_tabs'), {
+					time: 5000,
+					delay: 400,
+					event: 'hover',
+					auto: true,
+					mode: 'fade',
+					controller: $('#bannerCtrl'),
+					activeControllerCls: 'active'
+				});
+				$('#banner_tabs .flex-prev').click(function() {
+					bannerSlider.prev()
+				});
+				$('#banner_tabs .flex-next').click(function() {
+					bannerSlider.next()
+				});
+			})
+		</script>
+		
+		<!--main start-->
+		<div class="main">
+			<!--main_title-->
+			<div class="main_title">
+				<h1>{$res['title']}</h1>
+				<div class="main_stitle">
+					<span>{$res.time|date='Y-m-d',###}</span>
+					<span style="color: red;">{$res['type']}</span>
+				</div>
+			</div>
+			<!--main_title-->
+			<!--main_con-->
+			<div class="main_con">
+				<!--<img src="img/1.jpg" alt="简介"/>-->
+				<p>{$res['content']}</p>
+			</div>
+			<!--main_con-->
+		</div>
+		<!--main end-->
+		<!--footer start-->
+		<div class="footer">
+			<div class="footer_main clearfix">
+				<div class="footer_main_1">
+					<a href="#">相关链接： </a>
+					<a href="#">吉林省智城智家科技有限公司</a>
+					<a href="#">吉林省欣恒科技有限公司</a>
+					<a href="#">吉林省弘朗科技有限公司</a>
+				</div>
+				<div class="footer_main_2">
+					<a href="#">招商在线：13689825302 / 0431-81807186</a>
+				</div>
+				<div class="footer_main_3">
+					<div>
+						<p>地　址：吉林市丰满区2-6号</p>
+					</div>
+				</div>
+				<div class="ma_z">
+					<img src="__PUBLIC__/Home/img/ma1.png"/>
+				</div>
+				
+				<div class="ma_y">
+					<img src="__PUBLIC__/Home/img/ma2.png"/>
+				</div>
+			
+			</div>
+			<div class="banquan">
+				<p>版权所有：吉林市睿诚财务管理咨询有限公司 吉ICP备17006428号</p>
+			</div>
+		</div>
+		<!--footer end-->
+		<script type="text/javascript">
+			// nav 特效样式
+			;$(function (){
+				var ulChoose = $('#ulChoose'),
+					ulDou = $('#ulDou'),
+					liChoose = $('.liChoose'),
+					firstA = $('.nav').children('ul').children('li').children('a');
+
+				ulChoose.on('mouseenter',function (){
+					ulDou.show(100);
+				})
+				ulDou.on('mouseleave',function (){
+					ulDou.hide(100);
+				})
+				firstA.on('mouseenter',function (){
+					$(this).animate({
+						width: 90,
+					},150).css({'color':'#1296DB','font-weight':'bold'});
+				})
+				firstA.on('mouseleave',function (){
+					$(this).animate({
+						width: 56
+					},150).css({'color':'#757575','font-weight':'normal'});
+				})
+			})
+		</script>
+	</body>
+</html>

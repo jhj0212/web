@@ -1,0 +1,33 @@
+.datu img{
+	width:100%;
+}
+.neirong{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	background: #fff;
+	padding: 60px 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.neirong h3{
+	font-weight: 500; 
+	line-height: 1.5; 
+	color: rgb(247, 90, 83) !important;
+	font-size:1.5rem;
+}
+.neirong p{
+	color:#666;
+	line-height:30px;
+	font-size:1.1rem;
+}
+.neirong h4{
+	font-weight: 500; 
+	line-height: 1.5; 
+	color: inherit;
+	font-size:1.1rem;
+}

@@ -1,0 +1,9 @@
+[ 2017-09-26T09:18:30+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-09-26T13:44:50+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-09-26T13:44:52+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+

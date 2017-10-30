@@ -1,0 +1,637 @@
+[ 2017-04-11T07:53:31+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-11T07:53:57+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=aybm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-11T07:54:03+08:00 ] ::1 /htdocs/index.php/Manage/Index/menu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-11T07:54:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T08:50:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T08:50:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T08:50:47+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:08:50+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:09:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:09:43+08:00 ] ::1 /htdocs/index.php/Manage/Index/menu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-11T09:09:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:11:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:12:41+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:24:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-11T09:27:18+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:37:18+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:37:35+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:38:15+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:39:52+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:39:54+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:43:09+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:43:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:45:41+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T09:46:04+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:12:11+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:18:03+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:18:25+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:19:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:22:11+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:23:56+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:25:00+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:25:33+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:33:01+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T10:33:42+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T11:13:26+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T11:22:09+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:22:34+08:00 ] ::1 /htdocs/index.php/Manage/Index/menu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-11T11:22:35+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:23:05+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:23:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:23:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:23:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:23:09+08:00 ] ::1 /htdocs/index.php/Manage/Index/menu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-11T11:23:10+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:25:17+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:25:17+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:alias方法不存在！
+
+[ 2017-04-11T11:25:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-04-11T11:25:31+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-04-11T11:28:49+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T11:29:23+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T11:30:10+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T11:31:46+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Controller:field方法不存在！
+
+[ 2017-04-11T11:38:16+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+
+[ 2017-04-11T11:38:27+08:00 ] ::1 /htdocs/index.php/Manage/Role/index/p/2.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+
+[ 2017-04-11T11:39:21+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '($Page->firstRow.','.$Page->listRows)' at line 3
+
+[ 2017-04-11T11:40:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Controller:field方法不存在！
+
+[ 2017-04-11T11:40:21+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Controller:field方法不存在！
+
+[ 2017-04-11T13:05:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Controller:field方法不存在！
+
+[ 2017-04-11T13:06:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: Think\Controller:field方法不存在！
+
+[ 2017-04-11T13:13:58+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'
+
+[ 2017-04-11T13:14:33+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'
+
+[ 2017-04-11T13:14:44+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'
+
+[ 2017-04-11T13:15:34+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+
+[ 2017-04-11T13:19:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+NOTIC: D方法实例化没找到模型类privilege\Model\Role\RolePrivilegeModel
+
+[ 2017-04-11T13:19:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:21:26+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'on clause'
+
+[ 2017-04-11T13:21:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'on clause'
+
+[ 2017-04-11T13:21:41+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:33:50+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:34:37+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:35:04+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:36:03+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:37:14+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:38:51+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:39:00+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:39:43+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:40:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:41:32+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:42:54+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:43:04+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:43:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:45:14+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T13:59:55+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:01:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:01:58+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:10:19+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:10:40+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:11:00+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:03+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:20+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:34+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:49+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:12:55+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:14:32+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:14:36+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:14:46+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:14:52+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:14:54+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:15:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:15:49+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:15:54+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:15:56+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:16:50+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:17:04+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:17:20+08:00 ] ::1 /htdocs/index.php/Manage/User/checkAccount.html?account=%E4%B8%B0%E4%B8%9C%E8%82%A1%E4%BB%BD
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-11T14:17:37+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:17:54+08:00 ] ::1 /htdocs/index.php/Manage/User/checkAccount.html?account=rrr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-11T14:18:13+08:00 ] ::1 /htdocs/index.php/Manage/User/checkAccount.html?account=333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-11T14:18:28+08:00 ] ::1 /htdocs/index.php/Manage/User/checkAccount.html?account=%E7%83%AD%E7%83%AD%E7%83%AD
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+
+[ 2017-04-11T14:18:42+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:19:24+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:19:36+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:21:21+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:21:35+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:32:26+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:32:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:32:38+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:32:44+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:32:59+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:33:03+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:33:51+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:33:55+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:35:49+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:35:53+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:37:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:37:10+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:39:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:55:17+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:57:56+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:58:01+08:00 ] ::1 /htdocs/index.php/Manage/Role/delRole/id/12.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T14:58:04+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:15:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:15:23+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:15:25+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:17:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:17:39+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:18:01+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:18:32+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:18:42+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY'
+
+[ 2017-04-11T15:19:00+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T15:36:17+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY'
+
+[ 2017-04-11T16:10:19+08:00 ] ::1 /htdocs/index.php/Manage/Privilege/addPri.html
+ERR: 非法操作:addPri
+
+[ 2017-04-11T16:11:09+08:00 ] ::1 /htdocs/index.php/Manage/Privilege/edit/id/1000.html
+ERR: 非法操作:edit
+
+[ 2017-04-11T16:11:21+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:11:26+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:12:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:12:58+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY'
+
+[ 2017-04-11T16:14:16+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:14:31+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:14:33+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:14:43+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:14:45+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:15:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '16' for key 'PRIMARY'
+
+[ 2017-04-11T16:25:18+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:25:29+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2017-04-11T16:25:59+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:27:32+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:27:34+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:27:44+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:27:46+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:28:03+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '19' for key 'PRIMARY'
+
+[ 2017-04-11T16:30:12+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:30:26+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:30:36+08:00 ] ::1 /htdocs/index.php/Manage/Role/addRole.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '19' for key 'PRIMARY'
+
+[ 2017-04-11T16:35:30+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:40:14+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:50:13+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:50:57+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:51:49+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-11T16:54:37+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+

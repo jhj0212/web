@@ -1,0 +1,5 @@
+[ 2017-06-26T08:47:19+08:00 ] ::1 /luneng/index.php/Manage/Login/check_code.html?code=b4n8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,47 @@
+[ 2017-08-28T09:07:24+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=ydv2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-28T15:32:28+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-28T15:34:38+08:00 ] ::1 /web/index.php/Manage/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2017-08-28T15:34:39+08:00 ] ::1 /web/index.php/Manage/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2017-08-28T16:59:35+08:00 ] ::1 /web/index.php/Manage/Product/product.html
+ERR: 模板不存在:./App/Manage/View/Product/product.html
+
+[ 2017-08-28T17:19:53+08:00 ] ::1 /web/index.php/Manage/Product/product.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '地瓜粉' in 'where clause'
+
+[ 2017-08-28T17:20:41+08:00 ] ::1 /web/index.php/Manage/News/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aaaa' in 'where clause'
+
+[ 2017-08-28T17:21:31+08:00 ] ::1 /web/index.php/Manage/News/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.title' in 'where clause'
+
+[ 2017-08-28T17:22:02+08:00 ] ::1 /web/index.php/Manage/News/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.title' in 'where clause'
+
+[ 2017-08-28T18:03:39+08:00 ] ::1 /web/index.php/Manage/Product/edit/id/1.html
+ERR: 模板不存在:./App/Manage/View/Product/edit.html
+
+[ 2017-08-28T18:03:54+08:00 ] ::1 /web/index.php/Manage/Product/addPro.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2017-08-28T18:04:44+08:00 ] ::1 /web/index.php/Manage/Product/addPro.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2017-08-28T18:08:35+08:00 ] ::1 /web/index.php/Manage/Video/index.html
+ERR: 无法加载控制器:Video
+
+[ 2017-08-28T18:08:36+08:00 ] ::1 /web/index.php/Manage/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2017-08-28T18:08:37+08:00 ] ::1 /web/index.php/Manage/Video/index.html
+ERR: 无法加载控制器:Video
+

@@ -1,0 +1,1217 @@
+[ 2017-10-17T13:59:09+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=rerf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:44:47+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:44:49+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\web\Runtime\Cache\Manage\79850d11249df422c5a47349c15a1937.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:25+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:26+08:00 ] ::1 /web/index.php/Manage/Job/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `db_job` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\JobController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\JobController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_job` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\9369395aed2b5f93021882467c890a07.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:28+08:00 ] ::1 /web/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from db_manage [ RunTime:0.0000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:28+08:00 ] ::1 /web/index.php/Manage/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined index: logintime D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined index: loginip D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:30+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:58+08:00 ] ::1 /web/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from db_manage [ RunTime:0.0000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:45:58+08:00 ] ::1 /web/index.php/Manage/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined index: logintime D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined index: loginip D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:46:00+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:46:28+08:00 ] ::1 /web/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from db_manage [ RunTime:0.0000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:46:28+08:00 ] ::1 /web/index.php/Manage/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined index: logintime D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined index: loginip D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:46:30+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:47:03+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\web\Runtime\Cache\Manage\79850d11249df422c5a47349c15a1937.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-17T15:47:49+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:47:51+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:48:01+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:48:02+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:52:38+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:52:40+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:53:02+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: UPDATE `db_about_content` SET `title`='公司简介',`content`='<p style=\"text-indent:40px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">睿诚财务管理咨询（吉林）有限公司成立于</span>2017年8月10日，公司注册资本200万元，公司注册地址在吉林省长春市南关区人民大街10606号东北亚国际金融中心2号楼406号，是腾讯研究院互联网+创业中心平台企业(吉林省智城智家科技有限公司)一部分，公司集多方英才汇聚一堂，在财务领域有多名资深会计人员，行业涉及建筑业、房地产业、工业、商业等领域；在涉税邻域秉承实质重于形式的原则，具体问题具体分析，严格执行税法，履行纳税人的责任及义务。</span></strong></p><p style=\"text-indent:40px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">睿诚人的企业文化：诚信创新、传承品质、厚积薄发，为社会立足点滴、从我做起。愿与各方朋友齐聚一堂，愿我们的服务得到您的点赞。</span></span></strong></p><p style=\"text-indent:37px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">睿诚的经营范围：</span></span></strong><strong><span style=\";font-family:宋体;color:rgb(102,102,102);font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">企业财务管理；企业管理内控设计；企业重组、兼并；企业纳税筹划；企业管理培训、财税培训、财务代理、代理记账、财务咨询；税务代理、税务咨询；财务软件营销、应用、咨询、财务专用办公用品；财务信息咨询。</span></span></strong></p><p style=\"text-indent:37px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;color:rgb(102,102,102);font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">睿诚总部设于</span></span></strong><strong><span style=\";font-family:宋体;font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">在吉林省长春市南关区人民大街</span>10606号东北亚国际金融中心2号楼4层；电话：13689825302或0431-81115490</span></strong></p><p style=\"text-indent:40px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;color:rgb(102,102,102);font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\">睿诚第一分部设于吉林省长春市南关区临河街三环中海国际广场</span>A座8楼 电话：13304336233或0431-81807186</span></strong></p><p style=\"margin-right:0;margin-left:0;text-indent:32px;text-autospace:ideograph-numeric;line-height:27px\"><span style=\";font-family:宋体;font-size:16px\"><span style=\"font-family:Calibri\"></span></span><br/></p><p><br/></p>',`time`='1508226782' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:53:03+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:53:05+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:56:33+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: UPDATE `db_about_content` SET `title`='公司简介',`content`='<p style=\"text-indent:40px;text-align:left;line-height:27px\"><strong><span style=\";font-family:宋体;font-weight:bold;font-size:19px\"><span style=\"font-family:宋体\"></span></span></strong></p><p style=\"margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;margin-top:auto;margin-bottom:auto;text-indent:40px;text-autospace:ideograph-numeric;text-align:left;line-height:27px\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚财务管理咨询（吉林）有限公司成立于</span>2017年8月10日，公司注册资本200万元，公司注册地址在吉林省长春市南关区人民大街10606号东北亚国际金融中心2号楼406号，是腾讯研究院互联网+创业中心平台企业(吉林省智城智家科技有限公司)一部分，公司集多方英才汇聚一堂，在财务领域有多名资深会计人员，行业涉及建筑业、房地产业、工业、商业等领域；在涉税邻域秉承实质重于形式的原则，具体问题具体分析，严格执行税法，履行纳税人的责任及义务。</span></p><p style=\"margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;margin-top:auto;margin-bottom:auto;text-indent:40px;text-autospace:ideograph-numeric;text-align:left;line-height:27px\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚人的企业文化：诚信创新、传承品质、厚积薄发，为社会立足点滴、从我做起。愿与各方朋友齐聚一堂，愿我们的服务得到您的点赞。</span></span></p><p style=\"margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;margin-top:auto;margin-bottom:auto;text-indent:37px;text-autospace:ideograph-numeric;text-align:left;line-height:27px\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚的经营范围：</span></span><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">企业财务管理；企业管理内控设计；企业重组、兼并；企业纳税筹划；企业管理培训、财税培训、财务代理、代理记账、财务咨询；税务代理、税务咨询；财务软件营销、应用、咨询、财务专用办公用品；财务信息咨询。</span></span></p><p style=\"margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;margin-top:auto;margin-bottom:auto;text-indent:37px;text-autospace:ideograph-numeric;text-align:left;line-height:27px\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚总部设于</span></span><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">在吉林省长春市南关区人民大街</span>10606号东北亚国际金融中心2号楼4层；电话：13689825302或0431-81115490</span></p><p style=\"margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;margin-top:auto;margin-bottom:auto;text-indent:40px;text-autospace:ideograph-numeric;text-align:left;line-height:27px\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚第一分部设于吉林省长春市南关区临河街三环中海国际广场</span>A座8楼 电话：13304336233或0431-81807186</span></p><p><br/></p>',`time`='1508226993' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:56:35+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:57:00+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:57:33+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:57:35+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T15:57:42+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:49:28+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:50:01+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: UPDATE `db_about_content` SET `title`='公司简介',`content`='<p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚财务管理咨询（吉林）有限公司成立于</span>2017年8月10日，公司注册资本200万元，公司注册地址在吉林省长春市南关区人民大街10606号东北亚国际金融中心2号楼406号，是腾讯研究院互联网+创业中心平台企业(吉林省智城智家科技有限公司)一部分，公司集多方英才汇聚一堂，在财务领域有多名资深会计人员，行业涉及建筑业、房地产业、工业、商业等领域；在涉税邻域秉承实质重于形式的原则，具体问题具体分析，严格执行税法，履行纳税人的责任及义务。</span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚人的企业文化：诚信创新、传承品质、厚积薄发，为社会立足点滴、从我做起。愿与各方朋友齐聚一堂，愿我们的服务得到您的点赞。</span></span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚的经营范围：企业财务管理；企业管理内控设计；企业重组、兼并；企业纳税筹划；企业管理培训、财税培训、财务代理、代理记账、财务咨询；税务代理、税务咨询；财务软件营销、应用、咨询、财务专用办公用品；财务信息咨询。</span></span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚总部设于在吉林省长春市南关区人民大街</span>10606号东北亚国际金融中心2号楼4层；电话：13689825302或0431-81115490</span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚第一分部设于吉林省长春市南关区临河街三环中海国际广场</span>A座8楼 电话：13304336233或0431-81807186</span></p><p><br/></p>',`time`='1508230201' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:50:02+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:50:30+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:50:35+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0156s ]
+SQL: UPDATE `db_about_content` SET `title`='公司简介',`content`='<p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚财务管理咨询（吉林）有限公司成立于</span>2017年8月10日，公司注册资本200万元，公司注册地址在吉林省长春市南关区人民大街10606号东北亚国际金融中心2号楼406号，是腾讯研究院互联网+创业中心平台企业(吉林省智城智家科技有限公司)一部分，公司集多方英才汇聚一堂，在财务领域有多名资深会计人员，行业涉及建筑业、房地产业、工业、商业等领域；在涉税邻域秉承实质重于形式的原则，具体问题具体分析，严格执行税法，履行纳税人的责任及义务。</span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚人的企业文化：诚信创新、传承品质、厚积薄发，为社会立足点滴、从我做起。愿与各方朋友齐聚一堂，愿我们的服务得到您的点赞。</span></span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚的经营范围：企业财务管理；企业管理内控设计；企业重组、兼并；企业纳税筹划；企业管理培训、财税培训、财务代理、代理记账、财务咨询；税务代理、税务咨询；财务软件营销、应用、咨询、财务专用办公用品；财务信息咨询。</span></span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚总部设于在吉林省长春市南关区人民大街</span>10606号东北亚国际金融中心2号楼4层；电话：13689825302或0431-81115490</span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚第一分部设于吉林省长春市南关区临河街三环中海国际广场</span>A座8楼 电话：13304336233或0431-81807186</span></p><p><br/></p>',`time`='1508230235' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:50:36+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:15:35+08:00 ] ::1 /web/index.php/Manage/Job/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_job` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\JobController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\JobController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_job` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_job` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\9369395aed2b5f93021882467c890a07.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:18:48+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:18:51+08:00 ] ::1 /web/index.php/Manage/News/edit/id/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_news` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:19:57+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0080s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T17:19:58+08:00 ] ::1 /web/index.php/Manage/News/edit/id/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `db_news` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:21:53+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:21:56+08:00 ] ::1 /web/index.php/Manage/News/delete/id/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: DELETE FROM `db_news` WHERE `id` = 80 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `db_news_picture` [ RunTime:0.0156s ]
+SQL: DELETE FROM `db_news_picture` WHERE `news_id` = '80' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:21:57+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:22:08+08:00 ] ::1 /web/index.php/Manage/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:23:11+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:23:12+08:00 ] ::1 /web/index.php/Manage/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:23:42+08:00 ] ::1 /web/index.php/Manage/News/runAddNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:24:10+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:24:11+08:00 ] ::1 /web/index.php/Manage/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:24:22+08:00 ] ::1 /web/index.php/Manage/News/runAddNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: INSERT INTO `db_news` (`title`,`content`,`pid`,`time`) VALUES ('小规模企业优惠政策','<p style=\"line-height:27px\"><span style=\"font-family:宋体;font-size:19px\">1、</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">增值税</span></span><span style=\";font-family:Calibri;font-size:19px\"><span style=\"font-family:宋体\">减免：</span></span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">增值税小规模纳税人销售货物，提供加工、修理修配劳务的月销售额不超过</span>3<span style=\"font-family:宋体\">万元（按季纳税</span><span style=\"font-family:Calibri\">9</span><span style=\"font-family:宋体\">万元），销售服务、无形资产月销售额不超过</span><span style=\"font-family:Calibri\">3</span><span style=\"font-family:宋体\">万元（按季纳税</span><span style=\"font-family:Calibri\">9</span><span style=\"font-family:宋体\">万元），自</span><span style=\"font-family:Calibri\">2016</span><span style=\"font-family:宋体\">年</span><span style=\"font-family:Calibri\">5</span><span style=\"font-family:宋体\">月</span><span style=\"font-family:Calibri\">1</span><span style=\"font-family:宋体\">日起至</span><span style=\"font-family:Calibri\">2017</span><span style=\"font-family:宋体\">年</span><span style=\"font-family:Calibri\">12</span><span style=\"font-family:宋体\">月</span><span style=\"font-family:Calibri\">31</span><span style=\"font-family:宋体\">日，可分别享受小微企业免征增值税政策的销售额度。</span></span></p><p style=\"line-height:27px\"><span style=\"font-family:宋体;font-size:19px\">2、</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">文化事业建设费</span></span><span style=\";font-family:Calibri;font-size:19px\"><span style=\"font-family:宋体\">减免：</span></span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">自</span>2015<span style=\"font-family:宋体\">年</span><span style=\"font-family:Calibri\">1</span><span style=\"font-family:宋体\">月</span><span style=\"font-family:Calibri\">1</span><span style=\"font-family:宋体\">日起至</span><span style=\"font-family:Calibri\">2017</span><span style=\"font-family:宋体\">年</span><span style=\"font-family:Calibri\">12</span><span style=\"font-family:宋体\">月</span><span style=\"font-family:Calibri\">31</span><span style=\"font-family:宋体\">日，对按月纳税的月销售额不超过</span><span style=\"font-family:Calibri\">3</span><span style=\"font-family:宋体\">万元（含</span><span style=\"font-family:Calibri\">3</span><span style=\"font-family:宋体\">万元），以及按季销售额不超过</span><span style=\"font-family:Calibri\">9</span><span style=\"font-family:宋体\">万（含</span><span style=\"font-family:Calibri\">9</span><span style=\"font-family:宋体\">万元）的纳税义务人，免征文化事业建设费。</span></span></p><p style=\"line-height:27px\"><span style=\"font-family:宋体;font-size:19px\">3、</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">教育费附加、地方教育费附加、水利建设基金减免：按月纳税的月销售额或营业额不超过</span>10<span style=\"font-family:宋体\">万元（按季纳税的季度销售额或营业额不超过</span><span style=\"font-family:Calibri\">30</span><span style=\"font-family:宋体\">万元）免征教育费附加、地方教育费附加、水利建设基金。</span></span></p><p style=\"line-height:27px\"><span style=\"font-family:宋体;font-size:19px\">4、</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">企业</span></span><span style=\";font-family:Calibri;font-size:19px\"><span style=\"font-family:宋体\">所得税减免：</span></span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">对年应纳税所得额低于</span>50<span style=\"font-family:宋体\">万元（含</span><span style=\"font-family:Calibri\">50</span><span style=\"font-family:宋体\">万元）的小型微利企业，在进行年度所得税申报时，可以先将所得减按</span><span style=\"font-family:Calibri\">50%</span><span style=\"font-family:宋体\">计入所得税，随后减按</span><span style=\"font-family:Calibri\">20%</span><span style=\"font-family:宋体\">的税率进行所得税计算和缴纳。</span></span></p><p><br/></p>','1','1508232262') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:24:23+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:25:11+08:00 ] ::1 /web/index.php/Manage/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:25:25+08:00 ] ::1 /web/index.php/Manage/News/runAddNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: INSERT INTO `db_news` (`title`,`content`,`pid`,`time`) VALUES ('新税法动态','<p style=\"text-align: center;\">
+	<span style=\"color:#ff0000;\">最高人民检察院关于贪污养老、医疗等社会保险基金能否适用《最高人民法院最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定的批复</span></p><p>
+	　　最高人民检察院关于贪污养老、医疗等社会保险基金能否适用《最高人民法院最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定的批复</p><p>
+	　　(2017年7月19日最高人民检察院第十二届检察委员会第六十七次会议通过)</p><p>
+	各省、自治区、直辖市人民检察院，解放军军事检察院，新疆生产建设兵团人民检察院：</p><p>
+	　　近来，一些地方人民检察院就贪污养老、医疗等社会保险基金能否适用《最高人民法院、最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定请示我院。经研究，批复如下：</p><p>
+	　　养老、医疗、工伤、失业、生育等社会保险基金可以认定为《最高人民法院、最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第一条第二款第一项规定的“特定款物”。</p><p>
+	　　根据刑法和有关司法解释规定，贪污罪和挪用公款罪中的“特定款物”的范围有所不同，实践中应注意区分，依法适用。</p><p>
+	　　此复。</p><p style=\"text-align: right;\">
+	　　最高人民检察院</p><p style=\"text-align: right;\">
+	　　2017年7月26日</p><p><br/></p>','2','1508232325') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T17:25:26+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0156s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

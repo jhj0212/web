@@ -1,0 +1,8 @@
+[ 2017-04-28T07:40:20+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-28T07:42:50+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=jkaq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

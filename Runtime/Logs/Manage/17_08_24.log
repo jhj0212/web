@@ -1,0 +1,23 @@
+[ 2017-08-24T10:20:30+08:00 ] ::1 /luneng/index.php/Manage/Login/check_code.html?code=za8g
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-24T10:34:45+08:00 ] ::1 /luneng/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-08-24T10:38:35+08:00 ] ::1 /web/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-08-24T10:38:38+08:00 ] ::1 /web/index.php/Manage/Member/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_member' doesn't exist
+
+[ 2017-08-24T10:38:40+08:00 ] ::1 /web/index.php/Manage/Book/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_book' doesn't exist
+
+[ 2017-08-24T10:44:03+08:00 ] ::1 /web/index.php/Manage/Picture/index.html
+ERR: 无法加载控制器:Picture
+
+[ 2017-08-24T10:50:35+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+

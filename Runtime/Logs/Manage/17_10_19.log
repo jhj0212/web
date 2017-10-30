@@ -1,0 +1,2707 @@
+[ 2017-10-19T08:37:14+08:00 ] ::1 /web/index.php/Manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:17+08:00 ] ::1 /web/index.php/Manage/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:17+08:00 ] ::1 /web/index.php/Manage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:22+08:00 ] ::1 /web/index.php/Manage/Login/verify.html?time=0.6319994269903199
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:28+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=qal3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:30+08:00 ] ::1 /web/index.php/Manage/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0312s ]
+SQL: SELECT `id`,`account`,`login_count`,`status` FROM `db_manage` WHERE `account` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `db_manage` SET `login_ip`='0.0.0.0',`login_time`='1508373450',`login_count`='113' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:31+08:00 ] ::1 /web/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from db_manage [ RunTime:0.0000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T08:37:31+08:00 ] ::1 /web/index.php/Manage/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined index: logintime D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined index: loginip D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:29:43+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+ERR: 模板不存在:./App/Manage/View/Daili/index.html
+
+[ 2017-10-19T09:30:40+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:41+08:00 ] ::1 /web/index.php/Manage/Daili/addDaili.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:43+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:48+08:00 ] ::1 /web/index.php/Manage/Zhuce/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_zhuce` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ZhuceController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ZhuceController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_zhuce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_zhuce` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\cfa7155097a741c8462ce109fdcd7c71.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:50+08:00 ] ::1 /web/index.php/Manage/Zhuce/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_zhuce` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_zhuce` WHERE `title` = 'fgfh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_zhuce` WHERE `title` = 'fgfh' LIMIT 0,5   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:52+08:00 ] ::1 /web/index.php/Manage/Zhuce/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_zhuce` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_zhuce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_zhuce` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\cfa7155097a741c8462ce109fdcd7c71.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:53+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:30:54+08:00 ] ::1 /web/index.php/Manage/Daili/addDaili.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:31:19+08:00 ] ::1 /web/index.php/Manage/Daili/runAddNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+SQL: INSERT INTO `db_daili` (`title`,`content`,`time`) VALUES ('财务代理','<p>
+			</p><p>1、工商注册，财务代理，捆绑式打包服务。</p><p>
+			</p><p>2、公司具有多方专业人员，实施一站式全程服务模式，即始于工商注册、税务登记、银行开户、代理记账、商标注册、资质代办等服务。</p><p>
+			</p><p>3、收费标准 :</p><p>
+			</p><p>第一类：小规模企业（含代开发票及免费培训企业自己开票）</p><p>
+			</p><ul class=\" list-paddingleft-2\"><li><p>（1）、新企业小规模：代办工商及代理记账年打包年收费3000元（年收入低于36万）（不含刻章及金税盘设备款）；</p></li><li><p>（2）、新企业小规模：代理记账年打包年收费2400元（年收入低于36万）；</p></li><li><p>（3）、小规模企业年收入50-120万，年收费5000-12000元；</p></li><li><p>（4）、小规模企业年收入120-200万，年收费12000-20000元。</p></li></ul><p>
+			</p><p>第二类：一般纳税人（含代开发票及免费培训企业自己开票）</p><p>
+			</p><ul class=\" list-paddingleft-2\"><li><p>（1）、新企业一般纳税人：代办工商及代理记账年打包年收费4000元（年收入低于50万）（不含刻章及金税盘设备款）；</p></li><li><p>（2）、新企业一般纳税人：代理记账年打包年收费3600元（年收入低于50万）；</p></li><li><p>（3）、一般纳税人企业年收入50-120万，年收费6000-13000元；</p></li></ul><p>
+
+		</p><p><br/></p>','1508376679') [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:31:20+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:31:26+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:31:28+08:00 ] ::1 /web/index.php/Manage/Zhuce/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_zhuce` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ZhuceController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ZhuceController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_zhuce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_zhuce` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\cfa7155097a741c8462ce109fdcd7c71.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:31:29+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:34:47+08:00 ] ::1 /web/index.php/Manage/Peixun/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_peixun` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_peixun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_peixun` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:34:48+08:00 ] ::1 /web/index.php/Manage/Peixun/addDaili.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:addDaili
+
+[ 2017-10-19T09:35:07+08:00 ] ::1 /web/index.php/Manage/Peixun/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_peixun` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_peixun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_peixun` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-10-19T09:35:08+08:00 ] ::1 /web/index.php/Manage/Peixun/addPeixun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:35:26+08:00 ] ::1 /web/index.php/Manage/Peixun/runAddNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_peixun` [ RunTime:0.0000s ]
+SQL: INSERT INTO `db_peixun` (`title`,`content`,`time`) VALUES ('财税培训','<p>
+			</p><p>1、财务实操培训（价格2600元）</p><p>
+			</p><ul class=\" list-paddingleft-2\"><li><p>（1）时间安排：培训时间为三个月，同时赠送报税及开发票培训（国税、地税、个税）每周六周日培训，上午2.5课时、下午3课时（每课时为45分钟）。报名时间为每月的1至5号，报名电话：0431-81115490或13689825302</p></li><li><p>（2）培训内容安排：大类为商业类、工业类、建筑类、现代服务等10余中行业。</p></li><li><p>（3）培训的具体内容，包括手工记账；财务软件应用、建账、针对行业特点成本线的设计、会计科目的设立、会计凭证录入、审核、记账、结账、会计报表；会计分类核算等。</p></li></ul><p>
+			</p><p>2、会计初中级考前培训</p><p>
+			</p><ul class=\" list-paddingleft-2\"><li><p>（1）初级班：培训时间待定，报名电话：0431-81115490或13689825302</p></li><li><p>（2）中级班：培训时间待定，报名电话：0431-81115490或13689825302</p></li></ul><p>
+		</p><p><br/></p>','1508376926') [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:35:27+08:00 ] ::1 /web/index.php/Manage/Peixun/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_peixun` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PeixunController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_peixun` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_peixun` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\c81e8ec10caeaea10d9808f5ebb7c540.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T09:45:00+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_product_content as p INNER JOIN db_product_type c ON p.pid=c.id  ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:47:56+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_db_product_type' doesn't exist
+
+[ 2017-10-19T09:48:10+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.id' in 'order clause'
+
+[ 2017-10-19T09:48:17+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_product_type` ORDER BY id asc  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:49:14+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` ORDER BY id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:50:32+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:50:51+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:51:57+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:51:58+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:52:05+08:00 ] ::1 /web/index.php/Manage/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:52:07+08:00 ] ::1 /web/index.php/Manage/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 10,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:52:07+08:00 ] ::1 /web/index.php/Manage/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 15,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:52:09+08:00 ] ::1 /web/index.php/Manage/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:53:13+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:53:17+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` = '工商注册' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` = '工商注册' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:53:22+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` = '第一类' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` = '第一类' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:56:23+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:56:31+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` LIKE '%工商注册%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` LIKE '%工商注册%' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:56:37+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` LIKE '%第一类%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` LIKE '%第一类%' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:57:07+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:57:10+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` LIKE '%工商注册%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` LIKE '%工商注册%' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:57:12+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:57:16+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` WHERE `title` LIKE '%代理%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` WHERE `title` LIKE '%代理%' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T09:57:18+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:39:05+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0130s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T10:39:05+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:39:06+08:00 ] ::1 /web/index.php/Manage/Video/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_video` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\VideoController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\VideoController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_video` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_video` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\75794db7a26e5b70d69bfb9b97469554.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:39:07+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:39:08+08:00 ] ::1 /web/index.php/Manage/Product/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_content` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `db_product_content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_product_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-10-19T10:39:10+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:43:18+08:00 ] ::1 /web/index.php/Manage/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_product_type` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_product_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_product_type` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\0493a3c1dcde29e80d04539a5339dc08.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:05:48+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:05:49+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:05:52+08:00 ] ::1 /web/index.php/Manage/Our/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:05:52+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:05:53+08:00 ] ::1 /web/index.php/Manage/Our/content/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE p.id = '1' ORDER BY p.id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\web\Runtime\Cache\Manage\19825af88fd9994505c2a9d2b5d7d87f.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:06:17+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0100s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:06:18+08:00 ] ::1 /web/index.php/Manage/Our/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_about_content` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:07:09+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pic D:\xampp\htdocs\web\App\Manage\Controller\OurController.class.php 第 40 行.
+NOTIC: [8] Undefined index: pic D:\xampp\htdocs\web\App\Manage\Controller\OurController.class.php 第 46 行.
+NOTIC: [8] Undefined index: tmp_name D:\xampp\htdocs\web\Core\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\xampp\htdocs\web\Core\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\xampp\htdocs\web\Core\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\xampp\htdocs\web\Core\Library\Think\Upload.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0100s ]
+SQL: UPDATE `db_about_content` SET `title`='公司简介',`content`='<p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚财务管理咨询（吉林）有限公司成立于</span>2017年8月10日，公司注册资本200万元，公司注册地址在吉林省长春市南关区人民大街10606号东北亚国际金融中心2号楼406号，是腾讯研究院互联网+创业中心平台企业(吉林省智城智家科技有限公司)一部分，公司集多方英才汇聚一堂，在财务领域有多名资深会计人员，行业涉及建筑业、房地产业、工业、商业等领域；在涉税邻域秉承实质重于形式的原则，具体问题具体分析，严格执行税法，履行纳税人的责任及义务。</span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚人的企业文化：诚信创新、传承品质、厚积薄发，为社会立足点滴、从我做起。愿与各方朋友齐聚一堂，愿我们的服务得到您的点赞。睿诚的经营范围：企业财务管理；企业管理内控设计；企业重组、兼并；企业纳税筹划；企业管理培训、财税培训、财务代理、代理记账、财务咨询；税务代理、税务咨询；财务软件营销、应用、咨询、财务专用办公用品；财务信息咨询。</span></span></p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:200%\"><span style=\";font-family:宋体;font-weight:normal;font-size:16px\"><span style=\"font-family:宋体\">睿诚总部设于在吉林省长春市南关区人民大街</span>10606号东北亚国际金融中心2号楼4层；电话：13689825302或0431-81115490；<span style=\"font-family:宋体\">睿诚第一分部设于吉林省长春市南关区临河街三环中海国际广场</span>A座8楼 电话：13304336233或0431-81807186</span></p><p><br/></p>',`time`='1508382429' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:07:10+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_about_content` [ RunTime:0.0100s ]
+SQL: SELECT p.*,c.name FROM db_about_content as p INNER JOIN db_about_us c ON p.pid=c.id  WHERE ( p.pid=1 ) ORDER BY p.id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\544e5db5bf384aa261c5149c8187c3dd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:33:33+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:33:45+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:33:48+08:00 ] ::1 /web/index.php/Manage/Admin/delUser/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage_role` [ RunTime:0.0060s ]
+SQL: DELETE FROM `db_manage_role` WHERE `manage_id` = '34' [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0050s ]
+SQL: DELETE FROM `db_manage` WHERE `id` = 34 [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:33:49+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:11+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:13+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM db_role a LEFT JOIN db_role_privilege b ON a.id=b.role_id LEFT JOIN db_privilege c ON b.pri_id=c.id  GROUP BY a.id ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\97ab0baa5a157e4de2091b9f337dad4e.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:15+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:17+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:18+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:19+08:00 ] ::1 /web/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from db_manage [ RunTime:0.0000s ]
+SQL: SELECT * FROM db_privilege [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:19+08:00 ] ::1 /web/index.php/Manage/Index/copy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined index: logintime D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined index: loginip D:\xampp\htdocs\web\App\Manage\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:21+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-10-19T15:34:22+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM db_role a LEFT JOIN db_role_privilege b ON a.id=b.role_id LEFT JOIN db_privilege c ON b.pri_id=c.id  GROUP BY a.id ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\97ab0baa5a157e4de2091b9f337dad4e.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:24+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:56+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T15:34:57+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM db_role a LEFT JOIN db_role_privilege b ON a.id=b.role_id LEFT JOIN db_privilege c ON b.pri_id=c.id  GROUP BY a.id ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\97ab0baa5a157e4de2091b9f337dad4e.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:34:58+08:00 ] ::1 /web/index.php/Manage/Privilege/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_privilege` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PrivilegeController.class.php 第 20 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PrivilegeController.class.php 第 21 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_privilege` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_privilege` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 36 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:35:01+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:35:05+08:00 ] ::1 /web/index.php/Manage/Admin/delUser/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage_role` [ RunTime:0.0000s ]
+SQL: DELETE FROM `db_manage_role` WHERE `manage_id` = '33' [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+SQL: DELETE FROM `db_manage` WHERE `id` = 33 [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:35:06+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:37+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:41+08:00 ] ::1 /web/index.php/Manage/Admin/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_role`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_manage_role` [ RunTime:0.0100s ]
+SQL: SELECT GROUP_CONCAT(role_id) role_id FROM `db_manage_role` WHERE `manage_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:43+08:00 ] ::1 /web/index.php/Manage/Admin/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:43+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:44+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM db_role a LEFT JOIN db_role_privilege b ON a.id=b.role_id LEFT JOIN db_privilege c ON b.pri_id=c.id  GROUP BY a.id ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\97ab0baa5a157e4de2091b9f337dad4e.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:46+08:00 ] ::1 /web/index.php/Manage/Role/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_privilege` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_privilege`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_role_privilege` [ RunTime:0.0100s ]
+SQL: SELECT GROUP_CONCAT(pri_id) pri_id FROM `db_role_privilege` WHERE `role_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:49+08:00 ] ::1 /web/index.php/Manage/Role/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:49+08:00 ] ::1 /web/index.php/Manage/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\RoleController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM db_role a LEFT JOIN db_role_privilege b ON a.id=b.role_id LEFT JOIN db_privilege c ON b.pri_id=c.id  GROUP BY a.id ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\97ab0baa5a157e4de2091b9f337dad4e.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:36:51+08:00 ] ::1 /web/index.php/Manage/Privilege/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_privilege` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PrivilegeController.class.php 第 20 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\PrivilegeController.class.php 第 21 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_privilege` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_privilege` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 36 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+NOTIC: [8] Undefined index: parent_id D:\xampp\htdocs\web\Runtime\Cache\Manage\bae107271252228127160ac1d5a9293d.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:37:11+08:00 ] ::1 /web/index.php/Manage/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\AdminController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_manage` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_manage` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\aa7d73fbb1562a486a12cf0dcda6c459.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:37:12+08:00 ] ::1 /web/index.php/Manage/Admin/addAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_role` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_role`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:06+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:25+08:00 ] ::1 /web/index.php/Manage/Daili/content/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `db_daili` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\web\Runtime\Cache\Manage\071e3a34bf01d68ec337dbaf53c340a8.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:30+08:00 ] ::1 /web/index.php/Manage/Daili/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:31+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:33+08:00 ] ::1 /web/index.php/Manage/Daili/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:35+08:00 ] ::1 /web/index.php/Manage/Daili/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:35+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:40+08:00 ] ::1 /web/index.php/Manage/Daili/addDaili.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:42+08:00 ] ::1 /web/index.php/Manage/Daili/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:42+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:52+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0000s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:55+08:00 ] ::1 /web/index.php/Manage/News/edit/id/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `db_news` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:32:57+08:00 ] ::1 /web/index.php/Manage/News/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T16:32:57+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0080s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:33:19+08:00 ] ::1 /web/index.php/Manage/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.0100s ]
+SQL: SELECT p.*,c.type FROM db_news as p INNER JOIN db_news_type c ON p.pid=c.id  ORDER BY p.id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\06073d23c3892ce8bef67b8c3efeedb7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:37:02+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:37:06+08:00 ] ::1 /web/index.php/Manage/Daili/addDaili.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T16:37:08+08:00 ] ::1 /web/index.php/Manage/Daili/back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:37:08+08:00 ] ::1 /web/index.php/Manage/Daili/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_daili` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 14 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\web\App\Manage\Controller\DailiController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_daili` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `db_daili` LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\web\Runtime\Cache\Manage\ca6385984fd5e6e12e89d840802a17b1.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

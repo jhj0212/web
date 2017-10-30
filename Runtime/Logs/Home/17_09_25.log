@@ -1,0 +1,14 @@
+[ 2017-09-25T14:57:43+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'website'@'localhost' (using password: YES)
+
+[ 2017-09-25T15:13:20+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-09-25T15:36:23+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-25T15:41:36+08:00 ] ::1 /web/
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rcguanli.db_about_content' doesn't exist
+

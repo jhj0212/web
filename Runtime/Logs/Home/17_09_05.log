@@ -1,0 +1,45 @@
+[ 2017-09-05T13:08:24+08:00 ] 127.0.0.1 /index.php/Home/News/css/css.css
+ERR: 非法操作:css
+
+[ 2017-09-05T13:08:25+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:08:25+08:00 ] 127.0.0.1 /index.php/Home/News/css/news.css
+ERR: 非法操作:css
+
+[ 2017-09-05T13:08:25+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:10:36+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:10:36+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:10:54+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:10:54+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-09-05T13:23:42+08:00 ] 127.0.0.1 /index.php/Home/Zhaopin/zhaopin.html
+ERR: 无法加载控制器:Zhaopin
+
+[ 2017-09-05T13:24:27+08:00 ] 127.0.0.1 /index.php/Home/Chan/chanpin.html
+ERR: 无法加载控制器:Chan
+
+[ 2017-09-05T13:24:57+08:00 ] 127.0.0.1 /index.php/Home/Chan/chanpin.html
+ERR: 无法加载控制器:Chan
+
+[ 2017-09-05T13:29:08+08:00 ] 127.0.0.1 /index.php/Home/Zhaopin/zhaopin.html
+ERR: 无法加载控制器:Zhaopin
+
+[ 2017-09-05T13:30:46+08:00 ] 127.0.0.1 /index.php/Home/Zhaopin/zhaopin.html
+ERR: 无法加载控制器:Zhaopin
+
+[ 2017-09-05T13:31:18+08:00 ] 127.0.0.1 /index.php/Home/Chan/chanpin.html
+ERR: 无法加载控制器:Chan
+
+[ 2017-09-05T13:59:38+08:00 ] 127.0.0.1 /index.php/Home/Zhaopin/zhaopin.html
+ERR: 模板不存在:./App/Home/View/Zhaopin/zhaopin.html
+

@@ -1,0 +1,8 @@
+[ 2017-05-08T08:14:29+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-05-08T08:14:52+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=nn8i
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

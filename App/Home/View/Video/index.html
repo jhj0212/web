@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+</head>
+<body>
+<form method="post" action="" id="listform">
+    <div class="panel admin-panel">
+        <table class="table table-hover text-center">
+            <foreach name="person" item="data">
+                <tr>
+                    <td width="">{$data.title}</td>
+                    <td width="">{$data.content}</td>
+                    <td width="">{$data.url}</td>
+                    <figure class="pull-left clearfix y-m50 wow animated fadeInUp">
+                        <iframe frameborder="0" width="640" height="498" src="{$data.url}" allowfullscreen></iframe>
+                    </figure>
+                    <figure class="pull-left clearfix y-m50 wow animated fadeInUp">
+                        <iframe frameborder="0" width="640" height="498" src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=g0347lszndy&auto=0" allowfullscreen></iframe>
+                    </figure>
+                </tr>
+            </foreach>
+        </table>
+    </div>
+</form>
+</body>
+</html>

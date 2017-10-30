@@ -1,0 +1,47 @@
+[ 2017-09-06T11:05:12+08:00 ] 127.0.0.1 /index.php/Manage/Login/check_code.html?code=h282
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T11:05:16+08:00 ] 127.0.0.1 /index.php/Manage/Login/check_code.html?code=ha82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T11:05:23+08:00 ] 127.0.0.1 /index.php/Manage/Login/check_code.html?code=hab2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T16:11:21+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=s82y
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T16:34:25+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=cfib
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-06T16:41:27+08:00 ] ::1 /web/index.php/Manage/News/runAddNews.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'content' at row 1
+
+[ 2017-09-06T17:14:40+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=xnb5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-06T17:14:46+08:00 ] ::1 /web/index.php/Manage/Our/index.html
+ERR: 无法加载控制器:Our
+
+[ 2017-09-06T19:48:02+08:00 ] ::1 /web/index.php/Manage/Login/check_code.html?code=bmhc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-06T20:08:02+08:00 ] ::1 /web/index.php/Manage/Job/runAddNews.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2017-09-06T20:16:35+08:00 ] ::1 /web/index.php/Manage/Our/edit.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'content' at row 1
+

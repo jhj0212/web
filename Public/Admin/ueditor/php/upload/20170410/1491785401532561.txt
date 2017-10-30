@@ -1,0 +1,8 @@
+微信公众号秘钥（自建）9c62850a5e4fc43f9c67c44c97ca19fd
+映射器：ngrok 8080
+ngrok -config ngrok.cfg -subdomain example 8080
+
+
+
+http://example.tunnel.qydev.com
+http://test.tunnel.qydev.com

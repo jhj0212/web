@@ -1,0 +1,27 @@
+[ 2017-10-16T14:23:43+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:34:14+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:34:16+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:34:39+08:00 ] ::1 /web/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:34:59+08:00 ] ::1 /web/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:41:39+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:41:41+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:43:54+08:00 ] ::1 /web/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+
+[ 2017-10-16T14:44:38+08:00 ] ::1 /web/index.php/Home
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'rcguanli'@'localhost' (using password: YES)
+

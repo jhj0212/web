@@ -1,0 +1,18 @@
+[ 2017-05-10T13:28:10+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-05-10T13:29:08+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=c2ny
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T13:29:17+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=pkvm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-10T13:29:21+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=pkvw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+

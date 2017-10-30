@@ -1,0 +1,95 @@
+.neirong{
+	width:100%;
+	height: auto;
+	border:1px solid #ddd;
+	background: #fff;
+	margin: 10px auto 0;
+	padding: 50px 0;
+}
+.box1{
+	width:60%;
+	height:221px;
+	border-bottom:1px solid #ddd;
+	margin-left:20px;
+	margin: 0 auto;
+    position:relative;
+}
+.box1  img{
+	width:18%;
+	position:absolute;
+	top:10px;
+	margin-left: 15px;
+}
+.you{
+	position:absolute;
+	width: 428px;
+	height:190px;
+	left:285px;
+    top:17px;
+}
+.lei{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #ddd;
+	margin-left:10px;
+}
+.lei a p{
+
+	line-height: 30px;
+	color:red;
+	/*margin-left:91.8%;*/
+}
+.you ul li{
+	width:100%;
+	height: 35px;
+	line-height:30px;
+}
+.you h2{
+	font-size: 18px;
+	width: 25%;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    margin-left:20px;
+    overflow: hidden;
+    color:#666;
+}
+.you ul li a{
+	font-size: 16px;
+    line-height: 34px;
+    float:left;
+    margin-left:30px;
+    overflow: hidden;
+ 
+}
+.you ul li span{
+	font-size: 16px;
+    line-height: 34px;
+    float:right;
+    overflow: hidden;
+}
+
+/*.you a em{
+	font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    float:right;
+    color: #aaa;
+    margin-top:10px;
+    margin-right:50px;
+    overflow: hidden;
+ 
+}
+.you a p{
+	font-size: 15px;
+    height: 66px;
+    line-height: 22px;
+    color: #777;
+    text-indent: 2em;
+    float:left;
+    margin-top:16px;
+    margin-left:5px;
+    overflow: hidden;
+}*/
+

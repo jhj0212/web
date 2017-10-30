@@ -1,0 +1,31 @@
+[ 2017-04-26T07:37:55+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-26T07:38:05+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=rjub
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T09:29:45+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=ynf8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T09:29:52+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=ynfb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T15:17:05+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=tkau
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T15:17:29+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-26T16:18:51+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=heye
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+

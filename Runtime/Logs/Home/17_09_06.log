@@ -1,0 +1,57 @@
+[ 2017-09-06T09:27:02+08:00 ] 127.0.0.1 /index.php/Home/News/css/css.css
+ERR: 非法操作:css
+
+[ 2017-09-06T09:27:02+08:00 ] 127.0.0.1 /index.php/Home/News/css/news2.css
+ERR: 非法操作:css
+
+[ 2017-09-06T09:27:02+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-09-06T09:27:02+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-09-06T09:39:54+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't.type FROM db_news as a INNER JOIN news_type as t on a.pid=t.id' at line 1
+
+[ 2017-09-06T09:40:53+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tengfang.news_type' doesn't exist
+
+[ 2017-09-06T09:47:57+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: XML标签语法错误 : condition="$vv['pid'] eq $vo['id']"
+						<li
+
+[ 2017-09-06T09:48:22+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: XML标签语法错误 : condition="$vv[pid] eq $vo[id]"
+						<li
+
+[ 2017-09-06T09:48:41+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: XML标签语法错误 : condition="$vv.pid eq $vo.id"
+						<li
+
+[ 2017-09-06T10:05:07+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: Call to undefined function Home\Controller\dd()
+
+[ 2017-09-06T10:41:01+08:00 ] 127.0.0.1 /index.php/Home/News/news.html
+ERR: syntax error, unexpected '?>'
+
+[ 2017-09-06T10:46:21+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-09-06T13:46:46+08:00 ] ::1 /web/index.php/Home/Index/info/id/Arrayid.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_about_content,db_about_us' doesn't exist
+
+[ 2017-09-06T14:29:57+08:00 ] ::1 /web/index.php/Home/News/info/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.news' doesn't exist
+
+[ 2017-09-06T14:30:28+08:00 ] ::1 /web/index.php/Home/News/info/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.news' doesn't exist
+
+[ 2017-09-06T15:27:54+08:00 ] ::1 /web/index.php/Home/Chanpin/%7Bvideo.url%7D
+ERR: 非法操作:{video.url}
+
+[ 2017-09-06T15:33:45+08:00 ] ::1 /web/index.php/Home/News/more/id/1.html
+ERR: 模板不存在:./App/Home/View/News/more.html
+
+[ 2017-09-06T15:49:17+08:00 ] ::1 /web/index.php/Home/News/more/pid/1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.pid' in 'where clause'
+

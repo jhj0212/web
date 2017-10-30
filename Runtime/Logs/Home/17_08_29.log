@@ -1,0 +1,18 @@
+[ 2017-08-29T13:32:05+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-29T13:34:03+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tengfang.db_navigation' doesn't exist
+
+[ 2017-08-29T14:39:42+08:00 ] 127.0.0.1 /index.php/Home/News/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tengfang.db_news_type' doesn't exist
+
+[ 2017-08-29T14:39:50+08:00 ] 127.0.0.1 /index.php/Home/Message/index.html
+ERR: 无法加载控制器:Message
+
+[ 2017-08-29T14:40:31+08:00 ] 127.0.0.1 /index.php/Home/Contact/index.html
+ERR: 非法操作:index
+
+[ 2017-08-29T14:40:51+08:00 ] 127.0.0.1 /index.php/Home/Contact/contatc.html
+ERR: 非法操作:contatc
+

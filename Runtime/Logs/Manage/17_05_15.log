@@ -1,0 +1,12 @@
+[ 2017-05-15T14:14:03+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=megv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-15T14:14:14+08:00 ] ::1 /htdocs/index.php/Manage/Privilege/addPri.html
+NOTIC: D方法实例化没找到模型类manage\Model\PrivilegeModel
+ERR: Think\Model:getTree方法不存在！
+
+[ 2017-05-15T14:14:21+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+

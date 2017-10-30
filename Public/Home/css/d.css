@@ -1,0 +1,99 @@
+.nav {
+	width: 100%;
+	text-align: center;
+	z-index: 999 !important;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	margin: 40px auto;
+	/*ie7*/
+	*+position: relative;
+	*+width: 1000px;
+	*+left: 50%;
+	*+margin-left: -600px;
+	/*ie6*/
+	_position: relative;
+	_width: 1000px;
+	_left: 50%;
+	_margin-left: -600px;
+}
+
+/*一级菜单*/
+.nav ul {
+	margin: 0 auto;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	text-align: center;
+	z-index: 999 !important;
+}
+
+.nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+	z-index: 999 !important;
+}
+
+.nav ul li {
+	float: left;
+	margin: 0 20px;
+}
+
+.nav ul li a {
+	display: block;
+	color: #757575;
+	text-decoration: none;
+	padding: 2px 20px;
+	z-index: 999 !important;
+	border-radius: 30px;
+	background: #fff;
+	font-size: 14px;
+}
+
+.nav ul li .lanse{
+	color: #1296DB;
+	z-index: 999 !important;
+	font-weight: bold;
+}
+
+/*二级菜单*/
+.nav ul ul {
+	width: 100%;
+	height: 90px;
+	background: none;
+	border-top: none;
+	border-radius: 0px;
+	display:none;
+	z-index: 999 !important;
+	position: relative;
+}
+
+.nav ul ul li {
+	width: 100%;
+	z-index: 999 !important;
+}
+
+.nav ul ul li a {
+	width: 120px;
+	height: 30px;
+	background: #8B8B8B;
+	height: 30px;
+	color: #fff;
+	text-align:center;
+	position: absolute;
+	left: -30px;
+	top: 10px;
+}
+.nav ul ul li:first-child a{
+	top: 50px;
+}
+.nav ul ul li:hover a{
+	color: #fff;
+	z-index: 999 !important;
+}
+
+.nav ul ul li a:hover {
+	background: #1296DB;
+	font-weight: bold;
+}

@@ -1,0 +1,7 @@
+[ 2017-05-31T13:45:40+08:00 ] ::1 /luneng/index.php/Manage/Privilege/addPri.html
+NOTIC: D方法实例化没找到模型类manage\Model\PrivilegeModel
+ERR: Think\Model:getTree方法不存在！
+
+[ 2017-05-31T13:46:27+08:00 ] ::1 /luneng/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+

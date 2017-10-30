@@ -1,0 +1,94 @@
+[ 2017-04-17T07:56:38+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-17T07:56:57+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=teyn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-17T07:56:59+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=teyp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-17T08:08:01+08:00 ] ::1 /htdocs/index.php/Manage/News/index.html
+ERR: 无法加载控制器:News
+
+[ 2017-04-17T08:08:15+08:00 ] ::1 /htdocs/index.php/Manage/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2017-04-17T08:08:18+08:00 ] ::1 /htdocs/index.php/Manage/News/index.html
+ERR: 无法加载控制器:News
+
+[ 2017-04-17T08:08:20+08:00 ] ::1 /htdocs/index.php/Manage/News/index.html
+ERR: 无法加载控制器:News
+
+[ 2017-04-17T08:48:31+08:00 ] ::1 /htdocs/index.php/Manage/Member/update/id/9.html
+ERR: 非法操作:update
+
+[ 2017-04-17T09:16:36+08:00 ] ::1 /htdocs/index.php/Manage/Member/checkEmail.html?email=1234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.0220s ]
+SQL: SELECT `email` FROM `db_member` WHERE `email` = '1234' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-17T09:32:17+08:00 ] ::1 /htdocs/index.php/Manage/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2017-04-17T09:55:33+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-17T10:23:04+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-17T10:24:44+08:00 ] ::1 /htdocs/index.php/Manage/XW/addXW.html
+ERR: 无法加载控制器:XW
+
+[ 2017-04-17T10:24:47+08:00 ] ::1 /htdocs/index.php/Manage/XW/addNews.html
+ERR: 无法加载控制器:XW
+
+[ 2017-04-17T10:38:25+08:00 ] ::1 /htdocs/index.php/Manage/News/runAddXW.html
+ERR: 非法操作:runAddXW
+
+[ 2017-04-17T10:39:14+08:00 ] ::1 /htdocs/index.php/Manage/News/runAddNews.html
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE5\x9C\xB0\xE6\x96\xB9...' for column 'title' at row 1
+
+[ 2017-04-17T10:59:39+08:00 ] ::1 /htdocs/index.php/Manage/News/runAddNews.html
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE7\x83\xAD\xE9\x80\x80...' for column 'title' at row 1
+
+[ 2017-04-17T11:03:18+08:00 ] ::1 /htdocs/index.php/Manage/News/runAddNews.html
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE5\x92\x8C\xE6\xB3\x95...' for column 'title' at row 1
+
+[ 2017-04-17T11:04:03+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=t4d4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-17T11:05:05+08:00 ] ::1 /htdocs/index.php/Manage/News/runAddNews.html
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE9\xA5\xAD\xE5\xBA\x97...' for column 'title' at row 1
+
+[ 2017-04-17T11:11:12+08:00 ] ::1 /htdocs/index.php/Manage/News/update/id/55.html
+ERR: 非法操作:update
+
+[ 2017-04-17T11:38:31+08:00 ] ::1 /htdocs/index.php/Manage/XW/index.html
+ERR: 无法加载控制器:XW
+
+[ 2017-04-17T13:54:12+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-17T14:01:48+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-17T14:48:06+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-17T15:21:02+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-04-17T15:21:19+08:00 ] ::1 /htdocs/index.php/Manage/Order/index.html
+ERR: 无法加载控制器:Order
+
+[ 2017-04-17T15:23:45+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+

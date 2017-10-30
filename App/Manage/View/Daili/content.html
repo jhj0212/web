@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
+    <script src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/Admin/pintuer.js"></script>
+    <script src="__PUBLIC__/Admin/js/jquery-1.9.1.js"></script>
+    <script src="__PUBLIC__/Admin/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<div class="panel admin-panel">
+    <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 内容详情</strong></div>
+    <form action="{:U('edit')}" method='post' class="form-x" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
+        <div class="body-content">
+            <div class="form-group">
+                <div class="label">
+                    <label>标题：</label>
+                </div>
+                <div class="field">
+                    <label style="line-height:33px;">
+                        {$info.title}
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label>时间：</label>
+                </div>
+                <div class="field">
+                    <label style="line-height:33px;">
+                        {$info.time|date='Y-m-d H-s-m',###}
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="label">
+                    <label>基础价格：</label>
+                </div>
+                <div class="field">
+                    <label style="line-height:33px;">
+                        {$info.price}元
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="label">
+                    <label>简介：</label>
+                </div>
+                <div class="field">
+                    <label style="line-height:33px;">
+                        {$info.content}
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="label">
+                    <label></label>
+                </div>
+                <div class="field">
+                    <a class="button bg-main  icon-repeat" href="{:U('back')}">&nbsp;返回</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

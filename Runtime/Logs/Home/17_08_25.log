@@ -1,0 +1,39 @@
+[ 2017-08-25T08:28:19+08:00 ] 127.0.0.1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_news_content' doesn't exist
+
+[ 2017-08-25T09:55:28+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 模板不存在:./App/Home/View/News/InfoList.html
+
+[ 2017-08-25T09:55:49+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 模板不存在:./App/Home/View/News/InfoList.html
+
+[ 2017-08-25T09:56:24+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 模板不存在:./App/Home/View/News/InfoList.html
+
+[ 2017-08-25T09:58:42+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T09:58:43+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T09:58:43+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T09:58:44+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T09:58:44+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T10:03:41+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+
+[ 2017-08-25T10:39:14+08:00 ] ::1 /web/index.php/Home/News/info/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.news_type' doesn't exist
+
+[ 2017-08-25T10:40:10+08:00 ] ::1 /web/index.php/Home/News/info/id/1.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.db_db_news' doesn't exist
+
+[ 2017-08-25T10:46:36+08:00 ] ::1 /web/index.php/Home/News/InfoList/id/1.html
+ERR: 非法操作:InfoList
+

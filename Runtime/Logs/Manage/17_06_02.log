@@ -1,0 +1,8 @@
+[ 2017-06-02T11:16:49+08:00 ] ::1 /luneng/index.php/Manage/Login/check_code.html?code=cnd2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:18:01+08:00 ] ::1 /luneng/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+

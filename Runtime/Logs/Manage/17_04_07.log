@@ -1,0 +1,210 @@
+[ 2017-04-07T08:30:52+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-04-07T08:31:08+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=23kz
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T08:31:13+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:21:27+08:00 ] ::1 /htdocs/index.php/Manage/Index/adv.html
+ERR: 非法操作:adv
+
+[ 2017-04-07T09:21:28+08:00 ] ::1 /htdocs/index.php/Manage/Index/adv.html
+ERR: 非法操作:adv
+
+[ 2017-04-07T09:26:37+08:00 ] ::1 /htdocs/index.php/Manage/Index/column.html
+ERR: 非法操作:column
+
+[ 2017-04-07T09:30:03+08:00 ] ::1 /htdocs/index.php/Manage/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-04-07T09:30:04+08:00 ] ::1 /htdocs/index.php/Manage/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-04-07T09:30:05+08:00 ] ::1 /htdocs/index.php/Manage/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-04-07T09:33:45+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:41:44+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:44:47+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:45:40+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:47:31+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:48:11+08:00 ] ::1 /htdocs/index.php/Manage/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-04-07T09:52:37+08:00 ] ::1 /htdocs/index.php/Manage/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-04-07T09:52:37+08:00 ] ::1 /htdocs/index.php/Manage/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-04-07T09:52:37+08:00 ] ::1 /htdocs/index.php/Manage/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-07T09:52:37+08:00 ] ::1 /htdocs/index.php/Manage/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-04-07T09:57:53+08:00 ] ::1 /htdocs/index.php/Manage/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-04-07T09:57:54+08:00 ] ::1 /htdocs/index.php/Manage/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-04-07T10:43:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-04-07T11:44:18+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:44:46+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:44:48+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:44:48+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:11+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:55+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:55+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:56+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:56+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:57+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:45:57+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:44+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:45+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:45+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:46+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:46+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:46+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:46:46+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:47:11+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:47:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:47:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:47:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:47:12+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:52:48+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:52:49+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:52:49+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:52:49+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:52:49+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:56:03+08:00 ] ::1 /htdocs/index.php/Manage/Index/role.html
+ERR: 非法操作:role
+
+[ 2017-04-07T11:57:54+08:00 ] ::1 /htdocs/index.php/Manage/Role/index.html
+ERR: Think\Model:search方法不存在！
+
+[ 2017-04-07T11:59:06+08:00 ] ::1 /htdocs/index.php/Manage/Index/privilege.html
+ERR: 非法操作:privilege
+
+[ 2017-04-07T13:06:35+08:00 ] ::1 /htdocs/index.php/Manage/Index/privilege.html
+ERR: 非法操作:privilege
+
+[ 2017-04-07T13:07:23+08:00 ] ::1 /htdocs/index.php/Manage/Index/privilege.html
+ERR: 非法操作:privilege
+
+[ 2017-04-07T13:07:24+08:00 ] ::1 /htdocs/index.php/Manage/Index/privilege.html
+ERR: 非法操作:privilege
+
+[ 2017-04-07T13:07:31+08:00 ] ::1 /htdocs/index.php/Manage/Privilege/index.html%20target=
+ERR: 非法操作:index.html target=
+
+[ 2017-04-07T13:07:47+08:00 ] ::1 /htdocs/index.php/Manage/Privilege/index.html%20target=
+ERR: 非法操作:index.html target=
+
+[ 2017-04-07T13:48:07+08:00 ] ::1 /htdocs/index.php/Manage/Role/addUser.html
+ERR: 非法操作:addUser
+
+[ 2017-04-07T16:16:48+08:00 ] ::1 /htdocs/index.php/Manage/Picture/index.html
+ERR: 无法加载控制器:Picture
+
+[ 2017-04-07T16:28:56+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=q8hp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T16:29:10+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=muzv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-07T16:29:33+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=vapg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T16:29:58+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=pjhx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T16:31:28+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=kyfe
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

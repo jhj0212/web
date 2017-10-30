@@ -1,0 +1,38 @@
+[ 2017-05-02T07:38:34+08:00 ] ::1 /htdocs/index.php/Manage/Login/login
+ERR: 非法操作:login
+
+[ 2017-05-02T07:38:46+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=0220
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-02T07:38:53+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=q22q
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-02T07:39:17+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=qz2q
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-02T07:39:31+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=qn2q
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-02T11:31:01+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=hna6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-02T11:31:12+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=kna6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-02T11:31:22+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=kha6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

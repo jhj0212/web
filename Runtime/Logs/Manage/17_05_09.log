@@ -1,0 +1,30 @@
+[ 2017-05-09T13:29:12+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=TBIX
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-09T13:29:34+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=tx62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-09T15:59:25+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=scnd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-09T15:59:29+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=sc7d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-09T15:59:39+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=qohb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-09T15:59:44+08:00 ] ::1 /htdocs/index.php/Manage/Login/check_code.html?code=qehb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

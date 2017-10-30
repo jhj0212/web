@@ -1,0 +1,60 @@
+/*main start*/
+.main{
+	width: 100%;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	border-top:1px solid #C7C7C7;
+	background:#fff;
+	padding: 0 10% 60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main_title{
+	height: 140px;
+	border-bottom: 1px solid #C7C7C7;
+}
+.main_title h1{
+	height: 35px;
+	line-height: 38px;
+	color: #333;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 70px;
+	text-align: center;
+}
+.main_stitle{
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	margin-top: 65px;
+}
+.main_stitle span{
+	float: left;
+	color: #333;
+	padding-right: 20px;
+}
+.main_stitle a{
+	float: left;
+	color: #ce0000;
+}
+.main_stitle img{
+	float: left;
+	padding: 10px 2px 0 10px;
+}
+.main_con img{
+	margin: 30px auto;
+}
+.main_con p{
+	width:auto;
+	height:auto;
+	margin:auto;
+	color: #000;
+	font-size: 18px;
+	line-height: 32px;
+	text-indent: 36px;
+}
+/*main end*/
+
+
+

@@ -1,0 +1,84 @@
+[ 2017-08-30T09:09:57+08:00 ] 127.0.0.1 /index.php/Home/Index/css/css.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:09:58+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:09:58+08:00 ] 127.0.0.1 /index.php/Home/Index/href=/Public/Home/css/index.css
+ERR: 非法操作:href=
+
+[ 2017-08-30T09:09:58+08:00 ] 127.0.0.1 /index.php/Home/Index/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:10:08+08:00 ] 127.0.0.1 /index.php/Home/Index/href=/Public/Home/css/index.css
+ERR: 非法操作:href=
+
+[ 2017-08-30T09:10:08+08:00 ] 127.0.0.1 /index.php/Home/Index/css/css.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/css/css.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:10:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:10:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:12:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:12:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:27:54+08:00 ] 127.0.0.1 /index.php/Home/News/css/css.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:27:55+08:00 ] 127.0.0.1 /index.php/Home/News/css/index.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:27:55+08:00 ] 127.0.0.1 /index.php/Home/News/css/news.css
+ERR: 非法操作:css
+
+[ 2017-08-30T09:27:55+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:27:55+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:29:10+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:29:10+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+
+[ 2017-08-30T09:32:52+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/chanpin.html
+ERR: 无法加载控制器:Chanpin
+
+[ 2017-08-30T09:34:07+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/chanpin.html
+ERR: 无法加载控制器:Chanpin
+
+[ 2017-08-30T09:34:26+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/chanpin.html
+ERR: 无法加载控制器:Chanpin
+
+[ 2017-08-30T10:01:28+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/showchanpin/id/6.html
+ERR: 模板不存在:./App/Home/View/Chanpin/showchanpin.html
+
+[ 2017-08-30T10:25:18+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/showchanpin/id/1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where pid =1' at line 1
+
+[ 2017-08-30T10:25:25+08:00 ] 127.0.0.1 /index.php/Home/Chanpin/showchanpin/id/2.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where pid =2' at line 1
+
+[ 2017-08-30T10:48:41+08:00 ] 127.0.0.1 /index.php/Home/News/js/jquery-1.10.2.min.js
+ERR: 非法操作:js
+
+[ 2017-08-30T10:48:42+08:00 ] 127.0.0.1 /index.php/Home/News/js/slider.js
+ERR: 非法操作:js
+

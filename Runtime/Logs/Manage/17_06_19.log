@@ -1,0 +1,41 @@
+[ 2017-06-19T15:42:50+08:00 ] ::1 /luneng/index.php/Manage/Login/check_code.html?code=yj4z
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:42:55+08:00 ] ::1 /luneng/index.php/Manage/Login/check_code.html?code=ftwt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-19T15:43:09+08:00 ] ::1 /luneng/index.php/Manage/Role/index.html
+NOTIC: D方法实例化没找到模型类manage\Model\RoleModel
+
+[ 2017-06-19T15:44:40+08:00 ] ::1 /luneng/index.php/Manage/Admin/checkAccount.html?account=dgfg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0030s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'dgfg' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-19T15:44:43+08:00 ] ::1 /luneng/index.php/Manage/Admin/checkAccount.html?account=dgfg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'dgfg' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-19T15:44:48+08:00 ] ::1 /luneng/index.php/Manage/Admin/checkAccount.html?account=aaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0060s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'aaaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-19T15:44:53+08:00 ] ::1 /luneng/index.php/Manage/Admin/checkAccount.html?account=aaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_manage` [ RunTime:0.0090s ]
+SQL: SELECT `account` FROM `db_manage` WHERE `account` = 'aaaa' LIMIT 1   [ RunTime:0.0010s ]
+

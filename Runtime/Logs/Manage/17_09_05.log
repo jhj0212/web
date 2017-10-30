@@ -1,0 +1,5 @@
+[ 2017-09-05T16:23:29+08:00 ] 127.0.0.1 /index.php/Manage/Login/check_code.html?code=ad2w
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
